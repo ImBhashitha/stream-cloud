@@ -38,7 +38,7 @@ async def download(event):
                     participant = event.sender_id
                     ))
             except errors.UserNotParticipantError:
-                await event.reply(f" ابتدا در کانال زیر عضو شوید سپس فایل خود را ارسال نمایید.↙️\n\n@{Config.CHANNEL_USERNAME}\n\nAfter that /start the bot aging.")
+                await event.reply(f" ابتدا در کانال زیر عضو شوید سپس فایل خود را ارسال نمایید.↙️\n\n@{Config.CHANNEL_USERNAME}\n\n⭕️بعد از عضو شدن /start کلیک کنید..")
                 return
         
         if event.file :
