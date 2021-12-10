@@ -82,7 +82,7 @@ async def download(event):
                         await forward_reply.edit(f"📎 : {Config.DOMAIN}/{id_name}\n\n🤖 : {bot_url}",link_preview=True)
                 return
         if pv:
-            await event.reply("Send an file to get a link to download it")
+            await event.reply("جهت دریافت لینک مستقیم فایل خود را بفرستید.")
         
 
     elif event.is_channel:
